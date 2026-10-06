@@ -189,7 +189,7 @@ def show_results(test_type, score):
         if r["min"] <= score <= r["max"]:
             stage = r["stage"]
             message = r["message"]
-            score_range = f"{r["min"]} to {r["max"]}"
+            score_range = f"{r['min']} to {r['max']}"
             break
 
     # Deter"min"e next test
