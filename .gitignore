@@ -1,7 +1,6 @@
 .venv/
 __pycache__
 instance
-migrations
 # Python
 __pycache__/
 *.pyc
